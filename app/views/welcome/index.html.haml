@@ -1,1 +1,18 @@
-%h1 Voila! This is my test placeholder!
+#banner
+  .banner_content
+    %h1 Life File
+    %p Your life, filed!
+    %button= link_to "Enter", new_user_registration_path
+
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+      %h2 Organize
+      %p LifeFile will help you organize your life and keep things sorted out for you. LifeFile is the new way to keep track of things.
+
+#bottom_cta
+  .wrapper
+    %h2 Go Ahead!
+    %br
+    %button= link_to "Join Now", new_user_registration_path
